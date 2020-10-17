@@ -33,7 +33,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Move Pointer (i,j,k,l)",
+            "description": "CustomCapsLock | MouseKeyMode : Move Pointer (h,j,k,l)",
             "manipulators": [
                 {
                     "conditions": [
@@ -44,7 +44,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "i",
+                        "key_code": "k",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -69,7 +69,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "j",
+                        "key_code": "h",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -94,7 +94,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "k",
+                        "key_code": "j",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -138,7 +138,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Scroll (u,o,p,n)",
+            "description": "CustomCapsLock | MouseKeyMode : Scroll (f,b)",
             "manipulators": [
                 {
                     "conditions": [
@@ -149,32 +149,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "u",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "mouse_key": {
-                                "horizontal_wheel": -32
-                            }
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "conditions": [
-                        {
-                            "name": "capslock_mode",
-                            "type": "variable_if",
-                            "value": 4
-                        }
-                    ],
-                    "from": {
-                        "key_code": "p",
+                        "key_code": "b",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -199,7 +174,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "n",
+                        "key_code": "f",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -210,31 +185,6 @@
                         {
                             "mouse_key": {
                                 "vertical_wheel": 32
-                            }
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "conditions": [
-                        {
-                            "name": "capslock_mode",
-                            "type": "variable_if",
-                            "value": 4
-                        }
-                    ],
-                    "from": {
-                        "key_code": "o",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "mouse_key": {
-                                "horizontal_wheel": 32
                             }
                         }
                     ],
@@ -320,7 +270,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Speed Control (s,d,f)",
+            "description": "CustomCapsLock | MouseKeyMode : Speed Control (s,d)",
             "manipulators": [
                 {
                     "conditions": [
@@ -366,31 +316,6 @@
                     "to": [
                         {
                             "mouse_key": {
-                                "speed_multiplier": 2.0
-                            }
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "conditions": [
-                        {
-                            "name": "capslock_mode",
-                            "type": "variable_if",
-                            "value": 4
-                        }
-                    ],
-                    "from": {
-                        "key_code": "f",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "mouse_key": {
                                 "speed_multiplier": 3.0
                             }
                         }
@@ -400,7 +325,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Back/Forward (h,;)",
+            "description": "CustomCapsLock | MouseKeyMode : Back/Forward (comma,period)",
             "manipulators": [
                 {
                     "conditions": [
@@ -411,7 +336,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "h",
+                        "key_code": "comma",
                         "modifiers": {
                             "optional": [
                                 "caps_lock",
@@ -438,7 +363,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "semicolon",
+                        "key_code": "period",
                         "modifiers": {
                             "optional": [
                                 "caps_lock",

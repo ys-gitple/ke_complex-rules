@@ -62,22 +62,22 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 
 | FROM | TO |
 | - | - |
-| h | Home |
-| semicolon(;) | End |
+| , | Home |
+| . | End |
 
 ### Delete keys
 
 | FROM | TO |
 | - | - |
-| u | Delete |
-| o | Delete foward |
+| x | Delete |
+| X | Delete foward |
 
 ### Page Up/Down
 
 | FROM | TO |
 | - | - |
-| p | Page up |
-| n | Page down |
+| b | Page up |
+| f | Page down |
 
 ### Tab Mover
 
@@ -116,9 +116,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | t | CMD + t |
 | a | CMD + a |
 | s | CMD + s |
-| f | CMD + f |
 | z | CMD + z |
-| x | CMD + x |
 | c | CMD + c |
 | v | CMD + v |
 | 0 | CMD + 0 |
@@ -130,9 +128,8 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | FROM | TO |
 | - | - |
 | 9 | Next window |
-| g | Select a word |
 | Tab | SHIFT+Tab |
-| . | Get Plain Text (cmd-shift-k) |
+| t | Get Plain Text (cmd-shift-k) |
 | Shift-Space | Language change unless rdp or vm (Control-Space) |
 
 ## Launcher Mode
@@ -166,19 +163,17 @@ The Mouse Key Mode can be initiated by striking right shift key while the capslo
 
 | FROM | TO |
 | - | - |
-| i | Move cursor up  |
-| j | Move cursor left |
-| k | Move cursor down |
+| k | Move cursor up  |
+| h | Move cursor left |
+| j | Move cursor down |
 | l | Move cursor right |
 
 ### Scroll
 
 | FROM | TO |
 | - | - |
-| u | Scroll left |
-| o | Scroll right |
-| p | Scroll up |
-| n | Scroll down |
+| b | Scroll up |
+| f | Scroll down |
 
 ### Click
 
@@ -196,14 +191,13 @@ The speed will change while pressing the following keys.
 | - | - |
 | s | Slower cursor speed |
 | d | Faster cursor speed |
-| f | Even Faster cursor speed |
 
 ### Prev/Next page
 
 | FROM | TO |
 | - | - |
-| h | Prev Page |
-| semicolon(;) | Next Page |
+| , | Prev Page |
+| . | Next Page |
 
 
 ## Windows
