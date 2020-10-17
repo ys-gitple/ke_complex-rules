@@ -32,12 +32,7 @@ Rule URLs can be copied from the following list.
 | URL | Description |
 |-----------------------------------|---------------------------------------|
 | [CustomCapslock_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_Base.json) | Ruleset for basic custom capslock |
-| [CustomCapslock_iTerm2](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_iTerm2.json) | Ruleset for iTerms2 |
-| [CustomCapslock_VSCode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_VSCode.json) | Ruleset for VSCode |
-| [CustomCapslock_TraslateTab](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_TranslateTab.json) | Ruleset for Translate Tab |
-| [CustomCapslock_IntelliJ](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_IntelliJ.json) | Ruleset for IntelliJ |
 | [CustomCapslock_LauncherMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_LauncherMode.json)| Ruleset to launch applications |
-| [CustomCapslock_WindowCtrlMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_WindowCtrlMode.json) | Ruleset to control activated window |
 | [CustomCapslock_MouseKeyMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_MouseKeyMode.json) | Ruleset to use mouse using keyboard |
 | [CustomTab_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomTab_Base.json) | Ruleset using tab as a modifier |
 
@@ -140,50 +135,6 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | . | Get Plain Text (cmd-shift-k) |
 | Shift-Space | Language change unless rdp or vm (Control-Space) |
 
-### VSCode
-
-The following bindings are only enabled in VSCode application.
-| FROM | TO |
-| - | - |
-| b | Go Back (CTRL + hypen) |
-| n | Go Foward (CTRL + SHIFT + hypen) |
-| m | Go to Definition (f12) |
-| CMD + m | Go to References (SHIFT + f12) |
-| OPTION + m | Go to Implementation (CMD + f12) |
-| comma(,) | Next Problem (f8) |
-| period(.)| Expand Selection |
-| CMD + period | Shrink Selection |
-| Slash(/) | Toggle line comment |
-
-### iTerm
-
-The following bindings are only enabled in iTerm application.
-| FROM | TO |
-| - | - |
-| r | CTRL + r |
-
-### Translate Tab
-
-The following bindings are only enabled in Translate Tab application.
-| FROM | TO |
-| - | - |
-| s | Swap Language |
-
-### IntelliJ CE
-
-The following bindings are only enabled in VSCode application.
-| FROM | TO |
-| - | - |
-| b | Go Back (CMD + [) |
-| n | Go Foward (CMD + ]) |
-| m | Declaration or Usages (CMD + b) |
-| CMD + m | Implementations (CMD + OPTION + b) |
-| OPTION + m | Type Declaration (CMD + SHIFT + b) |
-| comma(,) | Next Problem (f2) |
-| period(.)| Expand Selection |
-| CMD + period | Shrink Selection |
-| Slash(/) | Toggle line comment |
-
 ## Launcher Mode
 
 The launcher mode can be initiated by striking enter while the capslock key is being pressed.
@@ -207,55 +158,6 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | t | iTerm |
 | v | VSCode |
 
-## Window Control Mode
-
-This Window Control Mode requires a tool called [Better Touch Tool](https://folivora.ai/). And it is desired to be configured to work properly.
-
-The mode can be initiated by striking right command key while the capslock key is being pressed.
-
-e.g. `CAPSLOCK(pressed) + R_COMMAND(down/up) + m -> maximize window`
-
-### Mission control
-
-| FROM | TO |
-| - | - |
-| i | Mission control  |
-| j | Move left a sapce |
-| k | Application Window |
-| l | Move right a space |
-| d | Show desktop |
-
-### Switch desktop
-
-| FROM | TO |
-| - | - |
-| 1 | Move to Desktop 1 |
-| 2 | Move to Desktop 2 |
-| 3 | Move to Desktop 3 |
-| 4 | Move to Desktop 4 |
-
-### Move activated window
-
-| FROM | TO |
-| - | - |
-| CMD + j | Move activated window to a left space |
-| CMD + l | Move activated window to a right space |
-| n | Move activated window to a next monitor |
-
-### Window snapping
-
-| FROM | TO |
-| - | - |
-| h | Resize window to left Half |
-| semicolon(;) | Resize window to right half |
-| t | Resize window to top half |
-| b | Resize window to bottom half |
-| u | Resizee window to left two thirds |
-| o | Resize window to right two thirds |
-| m | Resize window to max |
-| f | Resize window to middle |
-| r | Revert window size |
-
 ## Mouse Key Mode
 
 The Mouse Key Mode can be initiated by striking right shift key while the capslock key is being pressed.
@@ -276,15 +178,15 @@ The Mouse Key Mode can be initiated by striking right shift key while the capslo
 | u | Scroll left |
 | o | Scroll right |
 | p | Scroll up |
-| quote(') | Scroll down |
+| n | Scroll down |
 
 ### Click
 
 | FROM | TO |
 | - | - |
-| v | Left click |
-| b | CMD + Left click |
-| n | Right click |
+| w | Left click |
+| e | CMD + Left click |
+| r | Right click |
 
 ### Speed control
 

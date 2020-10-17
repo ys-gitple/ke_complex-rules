@@ -138,7 +138,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Scroll (u,o,p,quote)",
+            "description": "CustomCapsLock | MouseKeyMode : Scroll (u,o,p,n)",
             "manipulators": [
                 {
                     "conditions": [
@@ -174,7 +174,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "quote",
+                        "key_code": "n",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -243,7 +243,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Click (v,b,n)",
+            "description": "CustomCapsLock | MouseKeyMode : Click (w,e,r)",
             "manipulators": [
                 {
                     "conditions": [
@@ -254,7 +254,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "v",
+                        "key_code": "w",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -277,7 +277,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "b",
+                        "key_code": "e",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -303,7 +303,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "n",
+                        "key_code": "r",
                         "modifiers": {
                             "optional": [
                                 "any"
