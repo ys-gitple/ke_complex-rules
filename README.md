@@ -138,6 +138,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | g | Select a word |
 | Tab | SHIFT+Tab |
 | . | Get Plain Text (cmd-shift-k) |
+| Shift-Space | Language change unless rdp or vm (Control-Space) |
 
 ### VSCode
 
