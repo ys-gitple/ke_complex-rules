@@ -205,27 +205,27 @@ The speed will change while pressing the following keys.
 | h | Prev Page |
 | semicolon(;) | Next Page |
 
-## Custom Tab Basic
 
-The tab key is pressed solo, it's used as the tab. But it's going to be used as a virtual key when it's pressed with the following keys.
-
-e.g. tab(alone) -> tab, tab + q -> previous application
-
-### Switch application
+## Windows
 
 | FROM | TO |
 | - | - |
-| q | Prev application |
-| w | Next application |
-
-### Number pad
-
-| FROM | TO |
-| - | - |
-| o | 6 |
-| i | 5 |
-| u | 4 |
-| l | 3 |
-| k | 2 |
-| j | 1 |
-| m | 0 |
+| Shift-Space | Control-Space |
+| Ctrl+C, Ctrl+P, Ctrl+X | Cmd+C (Copy), Cmd+v (Paste), Cmd+X (Cut) |
+| Ctrl+Z | Cmd+Z (Undo) |
+| Ctrl+Y | Cmd+Shift+Y (Redo) |
+| Ctrl+A | Cmd+A (Select all) |
+| Ctrl+S | Cmd+S (Save) |
+| Ctrl+N | Cmd+N (New) |
+| Ctrl+F | Cmd+F (Find) |
+| Ctrl+W | Cmd+W (Close) |
+| Alt+F4 | Cmd+Q (Exit application) |
+| Ctrl+T | Cmd+T (New tab) |
+| Ctrl+L | Cmd+L (Open url location) (Only in browsers) |
+| Cmd+L | Ctrl+L (Open url location) (Only in windows) |
+| F5 | Cmd+r (Reload) |
+| Ctrl+Shift+Esc | Open Activity Monitor |
+| Return | Cmd+o (Open) (Only in Finder) |
+| F2 | Return (Rename) (Only in Finder) |
+| Delete | Cmd+backspace (Delete) (Only in Finder) |
+| Backspace | Cmd+up (Go back) (Only in Finder) |
