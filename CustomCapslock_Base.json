@@ -180,9 +180,9 @@
                     },
                     "to": [
                         {
-                            "key_code": "left_arrow",
+                            "key_code": "home",
                             "modifiers": [
-                                "left_command"
+                                "any"
                             ]
                         }
                     ],
@@ -207,9 +207,9 @@
                     },
                     "to": [
                         {
-                            "key_code": "right_arrow",
+                            "key_code": "end",
                             "modifiers": [
-                                "left_command"
+                                "any"
                             ]
                         }
                     ],
@@ -299,7 +299,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock : Page Up/Down (p,')",
+            "description": "CustomCapsLock : Page Up/Down (p,n)",
             "manipulators": [
                 {
                     "conditions": [
@@ -336,7 +336,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "quote",
+                        "key_code": "n",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -1035,7 +1035,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock : Translate Tab (d)",
+            "description": "CustomCapsLock : Get Plain Text (.)",
             "manipulators": [
                 {
                     "conditions": [
@@ -1046,7 +1046,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "d",
+                        "key_code": "period",
                         "modifiers": {
                             "optional": [
                                 "caps_lock"
@@ -1055,70 +1055,11 @@
                     },
                     "to": [
                         {
-                            "key_code": "d",
+                            "key_code": "k",
                             "modifiers": [
                                 "left_command",
-                                "left_control",
                                 "left_shift"
                             ]
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "CustomModifiers : Switch Language (right_command)",
-            "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "name": "capslock_mode",
-                            "type": "variable_if",
-                            "value": 0
-                        }
-                    ],
-                    "from": {
-                        "key_code": "right_command",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "right_command",
-                            "lazy": true
-                        }
-                    ],
-                    "to_if_alone": [
-                        {
-                            "key_code": "spacebar",
-                            "modifiers": [
-                                "left_control"
-                            ]
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "CustomModifiers : fn (right_option)",
-            "manipulators": [
-                {
-                    "from": {
-                        "key_code": "right_option",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "fn"
                         }
                     ],
                     "type": "basic"

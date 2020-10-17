@@ -82,7 +82,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | FROM | TO |
 | - | - |
 | p | Page up |
-| quote(') | Page down |
+| n | Page down |
 
 ### Tab Mover
 
@@ -137,9 +137,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | 9 | Next window |
 | g | Select a word |
 | Tab | SHIFT+Tab |
-| d | Open [Translated Tab](https://translate-tab.com/) |
-| Right CMD(without capslock) | Switch Input language |
-| Right Option(without capslock) | fn key |
+| . | Get Plain Text (cmd-shift-k) |
 
 ### VSCode
 
@@ -193,19 +191,20 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 
 | FROM | Application |
 | - | - |
+| 1 | 1Password |
 | c | Chrome |
 | d | Dock (CTRL + f3) |
-| e | Spark |
-| f | Forklift |
+| e | Kiwi |
+| f | Finder |
 | i | Safari |
-| j | IntelliJ CE |
+| j | Joplin |
 | k | KakaoTalk |
-| m | Menu (CTRL + f2)
-| p | Presto |
+| m | Music |
+| p | System Preferences |
+| r | Microsoft Remote Desktop |
 | s | Slack |
 | t | iTerm |
 | v | VSCode |
-| w | WhatsApp |
 
 ## Window Control Mode
 

@@ -33,6 +33,34 @@
             ]
         },
         {
+            "description": "CustomCapsLock | LauncherMode : 1Password (1)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 2
+                        }
+                    ],
+                    "from": {
+                        "key_code": "1",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open -a '1Password 6.app'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "CustomCapsLock | LauncherMode : Chrome (c)",
             "manipulators": [
                 {
@@ -93,7 +121,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : Spark (e)",
+            "description": "CustomCapsLock | LauncherMode : Kiwi for Gmail (e)",
             "manipulators": [
                 {
                     "conditions": [
@@ -113,7 +141,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'Spark.app'"
+                            "shell_command": "open -a 'Kiwi for Gmail.app'"
                         }
                     ],
                     "type": "basic"
@@ -121,7 +149,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : ForkLift (f)",
+            "description": "CustomCapsLock | LauncherMode : Finder (f)",
             "manipulators": [
                 {
                     "conditions": [
@@ -141,7 +169,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'ForkLift.app'"
+                            "shell_command": "open -a 'Finder.app'"
                         }
                     ],
                     "type": "basic"
@@ -177,7 +205,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : IntelliJ (j)",
+            "description": "CustomCapsLock | LauncherMode : Joplin (j)",
             "manipulators": [
                 {
                     "conditions": [
@@ -197,7 +225,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'IntelliJ IDEA CE.app'"
+                            "shell_command": "open -a 'Joplin.app'"
                         }
                     ],
                     "type": "basic"
@@ -233,7 +261,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : Menu (m)",
+            "description": "CustomCapsLock | LauncherMode : Music (m)",
             "manipulators": [
                 {
                     "conditions": [
@@ -253,11 +281,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "f2",
-                            "modifiers": [
-                                "left_control",
-                                "fn"
-                            ]
+                            "shell_command": "open -a 'Music.app'"
                         }
                     ],
                     "type": "basic"
@@ -265,7 +289,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : Presto (p)",
+            "description": "CustomCapsLock | LauncherMode : System Preferences (p)",
             "manipulators": [
                 {
                     "conditions": [
@@ -285,7 +309,35 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'Presto.app'"
+                            "shell_command": "open -a 'System Preferences.app'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "CustomCapsLock | LauncherMode : Microsoft Remote Desktop (r)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 2
+                        }
+                    ],
+                    "from": {
+                        "key_code": "r",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open -a 'Microsoft Remote Desktop.app'"
                         }
                     ],
                     "type": "basic"
@@ -370,34 +422,6 @@
                     "to": [
                         {
                             "shell_command": "open -a 'Visual Studio Code.app'"
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "CustomCapsLock | LauncherMode : WhatsApp (w)",
-            "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "name": "capslock_mode",
-                            "type": "variable_if",
-                            "value": 2
-                        }
-                    ],
-                    "from": {
-                        "key_code": "w",
-                        "modifiers": {
-                            "optional": [
-                                "caps_lock"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open -a 'WhatsApp.app'"
                         }
                     ],
                     "type": "basic"
