@@ -193,7 +193,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Click (w,e,r)",
+            "description": "CustomCapsLock | MouseKeyMode : Click (w/;,e,r')",
             "manipulators": [
                 {
                     "conditions": [
@@ -205,6 +205,29 @@
                     ],
                     "from": {
                         "key_code": "w",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "pointing_button": "button1"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "semicolon",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -254,6 +277,29 @@
                     ],
                     "from": {
                         "key_code": "r",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "pointing_button": "button2"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "quote",
                         "modifiers": {
                             "optional": [
                                 "any"

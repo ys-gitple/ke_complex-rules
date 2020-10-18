@@ -179,9 +179,9 @@ The Mouse Key Mode can be initiated by striking right shift key while the capslo
 
 | FROM | TO |
 | - | - |
-| w | Left click |
+| w,; | Left click |
 | e | CMD + Left click |
-| r | Right click |
+| r,' | Right click |
 
 ### Speed control
 
