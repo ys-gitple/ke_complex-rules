@@ -1074,38 +1074,6 @@
             ]
         },
         {
-            "description": "Windows: Delete => Cmd+backspace (Delete) (Only in Finder)",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "delete_forward",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "delete_or_backspace",
-                            "modifiers": [
-                                "left_command"
-                            ]
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "type": "frontmost_application_if",
-                            "bundle_identifiers": [
-                                "^com.apple.finder"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "description": "Windows: Backspace => Cmd+up (Go back) (Only in Finder)",
             "manipulators": [
                 {
